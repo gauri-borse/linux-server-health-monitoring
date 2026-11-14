@@ -1,0 +1,25 @@
+project:linux server health monitoring and alert system
+
+operating system:red hat enterprises linux
+environment:vmware workstation
+language:bash shell scripting
+
+Objective:
+monitor basic linux server health and record resource usage
+
+Feature:
+1.collect system hostname and timestamp.
+2.display one-minute load avarage.
+3.calculate memory usage percentage.
+4.monitor disk filesystem disk usage.
+5.generate warning at 80% memory or disk usag.
+6.display top CPU-consuming process.
+7.save report in log file.
+
+TOOLS:
+bash ,linux command,Nano ,cron,git and github
+
+DIPLOYMENT:
+Run the monitoring script locally inside the linux virtual machin and
+schedule automatic execution using cron.
+
